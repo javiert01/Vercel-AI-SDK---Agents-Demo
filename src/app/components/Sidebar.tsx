@@ -45,6 +45,14 @@ export default function Sidebar() {
               Message histories
             </Link>
           </li>
+          <li>
+            <Link
+              href="/structured-output"
+              className="block w-full text-left px-3 py-2 rounded hover:bg-gray-700 focus:outline-none"
+            >
+              Structured Output
+            </Link>
+          </li>
         </ul>
       </nav>
     </aside>
