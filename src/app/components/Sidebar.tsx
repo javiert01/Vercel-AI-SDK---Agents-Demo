@@ -53,6 +53,46 @@ export default function Sidebar() {
               Structured Output
             </Link>
           </li>
+          <li>
+            <Link
+              href="/enums"
+              className="block w-full text-left px-3 py-2 rounded hover:bg-gray-700 focus:outline-none"
+            >
+              Enums
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/arrays"
+              className="block w-full text-left px-3 py-2 rounded hover:bg-gray-700 focus:outline-none"
+            >
+              Arrays
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/images"
+              className="block w-full text-left px-3 py-2 rounded hover:bg-gray-700 focus:outline-none"
+            >
+              Images
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/tool"
+              className="block w-full text-left px-3 py-2 rounded hover:bg-gray-700 focus:outline-none"
+            >
+              Tool Call
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/agent"
+              className="block w-full text-left px-3 py-2 rounded hover:bg-gray-700 focus:outline-none"
+            >
+              My First Agent
+            </Link>
+          </li>
         </ul>
       </nav>
     </aside>

@@ -23,6 +23,21 @@ export default function SystemPage() {
   return (
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-4">System Prompts</h1>
+      <ul className="mb-4 border rounded  p-3 text-sm text-white font-mono list-disc pl-5">
+        <li>You are a text summarizer.</li>
+        <li>Summarize the text you receive.</li>
+        <li>Be concise.</li>
+        <li>Return only the summary.</li>
+        <li>Do not use the phrase "here is a summary".</li>
+        <li>Highlight relevant phrases in bold.</li>
+        <li>The summary should be two sentences long.</li>
+      </ul>
+
+      <div className="mb-2 font-semibold text-white">Text to resume:</div>
+      <div className="mb-4 border rounded bg-gray-50 p-3 text-sm text-gray-800 max-h-40 overflow-auto font-mono">
+        {exampleText}
+      </div>
+
       <button
         onClick={handleClick}
         disabled={isLoading}
