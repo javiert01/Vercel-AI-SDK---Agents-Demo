@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## About This Project
+
+This app is a **demo project to learn the basics of the [Vercel AI SDK](https://sdk.vercel.ai/)** library.  
+It showcases how to use the Vercel AI SDK with OpenAI models to generate text, stream responses, summarize content, classify sentiment, generate structured outputs, and more.  
+Each page demonstrates a different feature or integration, making it a practical playground for experimenting with AI-powered capabilities in a Next.js environment.
+
 ## Getting Started
 
 First, run the development server:
